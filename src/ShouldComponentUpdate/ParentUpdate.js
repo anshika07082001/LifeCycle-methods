@@ -3,29 +3,30 @@ import ChildUpdate from './ChildUpdate'
 import './update.css'
 
 export class ComponentUpdate extends Component {
-    constructor(props) {
-      super(props)
-    
-      this.state = {
-        bg:'white',
-        btnBg:'black'
-      }
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+      bg:'white',
+      btnBg:'black'
     }
+  }
 
-    btnHandler=()=>{
-        if(this.state.bg=='white'){
-            this.setState({
-                bg:'black',
-                btnBg:'white'
-            })
-        }
-        else{
-            this.setState({
-                bg:'white',
-                btnBg:'black'
-            })
-        }
-    }
+  btnHandler=()=>{
+      if(this.state.bg=='white'){
+          this.setState({
+              bg:'black',
+              btnBg:'white'
+          })
+      }
+      else{
+          this.setState({
+              bg:'white',
+              btnBg:'black'
+          })
+      }
+  }
+  
   render() {
     return (
       <div className={`componentUpd ${this.state.bg}`}>

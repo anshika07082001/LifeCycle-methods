@@ -1,0 +1,24 @@
+.ParentSnap {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.white {
+    background: white;
+    color: black;
+}
+
+.black {
+    color: white;
+    background: black;
+}

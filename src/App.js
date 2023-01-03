@@ -2,6 +2,7 @@ import './App.css';
 import DidMount from './ComponentDidMount/DidMount';
 import Constructor from './Constructor/Constructor';
 import Parent from './getDerivedStateToProps/Parent';
+import ParentSnap from './getSnapBeforeUpdate/ParentSnap';
 import Render from './Render/Render';
 import ParentUpdate from './ShouldComponentUpdate/ParentUpdate';
 
@@ -18,6 +19,8 @@ function App() {
       <DidMount/>
       <hr/>
       <ParentUpdate/>
+      <hr/>
+      <ParentSnap/>
     </div>
   );
 }

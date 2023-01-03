@@ -13,12 +13,13 @@ export class ChildUpdate extends Component {
             return false;
         }
     }
-  render() {
-    console.log('Child rendering')
-    return (
-      <div>ChildUpdate</div>
-    )
-  }
+
+    render() {
+      console.log('Child rendering')
+      return (
+        <div>ChildUpdate</div>
+      )
+    }
 }
 
 export default ChildUpdate
