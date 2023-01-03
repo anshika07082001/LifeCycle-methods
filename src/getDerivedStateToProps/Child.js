@@ -11,7 +11,11 @@ export class Child extends Component {
     }
 
     static getDerivedStateFromProps(props,state){
-        console.warn('',props,state)
+        console.warn('hook',props,state)
+        return {
+            currentBg:props='black',
+            currentBtnBg:props='white'
+        }
     }
     
     render() {
