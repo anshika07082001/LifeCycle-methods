@@ -1,5 +1,5 @@
 import './App.css';
-import Constructor from './components/Constructor';
+import Constructor from './Constructor/Constructor';
 
 function App() {
   return (

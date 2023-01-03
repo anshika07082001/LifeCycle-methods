@@ -1,0 +1,30 @@
+.heading__underline {
+    text-decoration: underline solid black;  
+}
+
+.constructor__container {
+    height: 300px;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.white {
+    background: white;
+    color: black;
+}
+
+.black {
+    color: white;
+    background: black;
+}

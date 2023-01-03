@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './constructor.css';
 
 export class Constructor extends Component {
   
