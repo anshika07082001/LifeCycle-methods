@@ -1,5 +1,6 @@
 import './App.css';
 import DidMount from './ComponentDidMount/DidMount';
+import UnMount from './ComponentUnmount/UnMount';
 import Constructor from './Constructor/Constructor';
 import Parent from './getDerivedStateToProps/Parent';
 import ParentSnap from './getSnapBeforeUpdate/ParentSnap';
@@ -21,6 +22,8 @@ function App() {
       <ParentUpdate/>
       <hr/>
       <ParentSnap/>
+      <hr/>
+      <UnMount/>
     </div>
   );
 }
