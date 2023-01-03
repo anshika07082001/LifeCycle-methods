@@ -11,7 +11,6 @@ export class Constructor extends Component {
       btnBg:'black'
     }
   }
-
 // Click Handler
 
   btnHandler=()=> {
