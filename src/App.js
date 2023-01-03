@@ -3,6 +3,7 @@ import DidMount from './ComponentDidMount/DidMount';
 import Constructor from './Constructor/Constructor';
 import Parent from './getDerivedStateToProps/Parent';
 import Render from './Render/Render';
+import ParentUpdate from './ShouldComponentUpdate/ParentUpdate';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Render/>
       <hr/>
       <DidMount/>
+      <hr/>
+      <ParentUpdate/>
     </div>
   );
 }

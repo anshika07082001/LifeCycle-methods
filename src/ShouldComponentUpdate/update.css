@@ -1,0 +1,24 @@
+.componentUpd {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.white {
+    background: white;
+    color: black;
+}
+
+.black {
+    color: white;
+    background: black;
+}
