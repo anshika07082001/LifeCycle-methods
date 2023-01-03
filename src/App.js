@@ -1,4 +1,5 @@
 import './App.css';
+import DidMount from './ComponentDidMount/DidMount';
 import Constructor from './Constructor/Constructor';
 import Parent from './getDerivedStateToProps/Parent';
 import Render from './Render/Render';
@@ -12,6 +13,8 @@ function App() {
       <Parent/>
       <hr/>
       <Render/>
+      <hr/>
+      <DidMount/>
     </div>
   );
 }

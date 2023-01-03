@@ -1,0 +1,17 @@
+.didMount {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.white {
+    background: white;
+    color: black;
+}
+
+.black {
+    color: white;
+    background: black;
+}
