@@ -1,6 +1,7 @@
 import './App.css';
 import Constructor from './Constructor/Constructor';
 import Parent from './getDerivedStateToProps/Parent';
+import Render from './Render/Render';
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <Constructor/>
       <hr/>
       <Parent/>
+      <hr/>
+      <Render/>
     </div>
   );
 }
